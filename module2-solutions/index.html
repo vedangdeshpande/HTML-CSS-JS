@@ -1,9 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello  Coursera</title>
+	<title>first assign</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		* {
+			box-sizing : border-box;
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+		}
+
+		h1 {
+			text-align: center;
+			margin: 50px;
+			font-size: 175%;
+		}
+
+		h2 {
+			float : right;
+			border : 2px solid black;
+			text-align: center;
+			padding : 10px;
+			font-size: 125%;
+		}
+
+		div {
+			border :2px solid black;
+			background-color: grey;
+			margin: 1%;
+		}
+
+		p {
+			clear : both;
+			padding: 10px;
+		}
+
+		section {
+			align-self: center;
+		}
+
+		@media (min-width: 992px) 
+		{
+			div {
+				width : 31.33%; 
+				float: left;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) 
+		{
+			#first, #second {
+				width : 48%; 
+				float: left;
+			}
+
+			#third {
+				width: 98%;
+				clear: both;
+			}
+		}
+
+		@media (max-width: 767px) 
+		{
+			div {
+				width : 98%; 
+			}
+		}
+	</style>
 </head>
 <body>
-	<h1>Hello  Coursera ! this is exciting</h1>
+	<h1>Our Menu</h1>
+	<section>
+		<div id="first">
+			<h2 style="background-color:red">Chicken</h2>
+			<p>lorem ipsum sit pomsdn z dwe asdq sdcQW
+			lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW</p>
+		</div>
+		<div id="second">
+			<h2 style="background-color:lightgreen">Beef</h2>
+			<p>lorem ipsum sit pomsdn z dwe asdq sdcQW
+			lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW</p>
+		</div>
+		<div id="third">
+			<h2 style="background-color:lightblue">Sushi</h2>
+			<p>lorem ipsum sit pomsdn z dwe asdq sdcQW
+			lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW lorem ipsum sit pomsdn z dwe asdq sdcQW</p>
+		</div>
+	</section>
 </body>
 </html>
+
+<!-- git status
+git add .
+git commit -m "some message"
+git push -->
+
+
+<!-- browser-sync start --server --directory --files "*" -->
